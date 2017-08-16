@@ -2,3 +2,6 @@ shims/
 target/
 version
 versions/
+/libexec/*.dylib
+/src/Makefile
+/src/*.o
