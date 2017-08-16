@@ -18,6 +18,12 @@ Please refer to [**sbtenv**](https://github.com/sbtenv/sbtenv) in the case of us
     $ git clone git://github.com/scalaenv/scalaenv.git ~/.scalaenv
     ~~~
 
+    Optionally, try to compile dynamic bash extension to speed up scalaenv. Don't worry if it fails; scalaenv will still work normally:
+
+    ~~~sh
+    cd ~/.scalaenv && src/configure && make -C src
+    ~~~
+
 2. Add `~/.scalaenv/bin` to your `$PATH` for access to the `scalaenv` command.
 
     ~~~ sh
